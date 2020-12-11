@@ -1,0 +1,48 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  #gallows{
+
+    align-content: space-around;
+    width: 300 px;
+    height: 270 px;
+  }
+
+
+
+.container {
+
+  margin-top: 60 px;
+  margin-bottom:  70 px;
+
+}
+#gallowspictures img{
+
+width: 300 px;
+height: 350 px;
+
+
+}
+
+#guessform{
+
+  float: right;
+}
+
+.div-row {
+
+width: 30;
+text-align: center;
+
+}
+
+/* .Instructions { */
+
+  
+
+
+    
+
+
+
