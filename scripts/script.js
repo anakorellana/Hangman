@@ -1,11 +1,9 @@
 
-let word = prompt("Welcome to Hangman! Player 1, please enter a word for Player 2 to guess.");
-if(word != null){
-    word = word.toUpperCase();
-}else{
-    while(word == null)
+let word = null;
+while (word == null || word == "") {
     word = prompt("Welcome to Hangman! Player 1, please enter a word for Player 2 to guess.");
 }
+word = word.toUpperCase();
 
 // note the switch toUpperCase(), we want to always work in upper case letters to avoid confusing 'a' and 'A' as unequal.
 
